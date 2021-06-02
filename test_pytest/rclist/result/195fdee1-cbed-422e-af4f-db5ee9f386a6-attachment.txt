@@ -1,0 +1,111 @@
+开始访问L3资源
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>定制地址大全</title>
+    <style>
+.girl{
+    width:100%;
+    height:150px;
+}
+</style>
+</head>
+<body >
+<!--<br><br><br>style="background:url(sxf1.bmp) no-repeat scroll top left ";-->
+<div class="girl">
+<img width=100% height=100% src="redispic/sxf1.bmp" title="深信服图片"/>
+</div>
+<!--    <div id="top1" style="height:1px; background:white"></div>-->
+<!--    <div id="top2" style="height:60px; background:pink"><h1><center>深信服资源地址大全</center></h1></div>-->
+    <div id="medium">
+        <ul id="listwuxu">
+            <left><h2>HCi地址（合理利用虚拟机）</h2></left>
+            <li id="h1"><a href="https://199.201.139.1" title="1的HCI地址" target='_blank'> HCI管理系统139.1</a>（平时使用的HCI,admin/sangfor123)</li>
+            <li id="h7"><a href="https://199.201.139.7" title="7的HCI地址" target='_blank'> HCI管理系统139.7</a>（性能的HCI）</li>
+            <li id="h17"><a href="https://199.201.139.17" title="13的HCI地址" target='_blank'> HCI管理系统139.17</a>（自动化的HCI,admin/sangfor123）</li>
+            <li id="h218"><a href="https://199.201.75.218" title="开发的HCI地址" target='_blank'> HCI管理系统218</a>（开发的HCI,admin/sangfor@123）</li>
+
+
+
+            <left><h2>灯塔地址定制相关帖子（灯塔账号,自己输入）</h2></left>
+            <li id="zaohui"><a href="http://199.201.75.1/t/topic/5348" title="早会" target='_blank'> 定制早会跟踪</a>（在下面回复即可）</li>
+            <li id="td"><a href="http://199.201.75.1/t/topic/719" title="td使用" target='_blank'> TD使用介绍</a></li>
+            <li id="hdeng8"><a href="http://199.201.75.1/t/topic/7003" title="8月份案例评审帖子" target='_blank'> Q3季度定制案例评审帖子</a>（案例评审完，在下面回复即可）</li>
+            <li id="hdengdakehu"><a href="http://199.201.75.1/t/topic/5627/15?u=luwenbo" title="大客户提测进展缺陷预防公示" target='_blank'> 大客户提测进展缺陷预防公示</a>(模板在上面,在下面回复即可)</li>
+            <li id="hmiance"><a href="http://199.201.75.1/t/topic/5104" title="免测包流程" target='_blank'> 免测试介入流程，针对页面改动</a>(开发务必下载指定模板进行测试)</li>
+            <li id="hwenjianchong"><a href="http://199.201.75.1/t/topic/5170/2" title="历史文件冲突" target='_blank'> 如何处理历史文件冲突</a></li>
+            <li id="jibenwenti"><a href="http://199.201.75.2/apps/onlyoffice/256365" title="基本问题" target='_blank'> 定制基本问题追溯</a>(有基本问题填写，例如版本号，功能未实现，需求传达等)</li>
+            <li id="baoduibi"><a href="http://199.201.75.1/t/topic/4944" title="包对比" target='_blank'> 包对比输出报告分享</a></li>
+
+
+            <left><h2>公司平台地址（请恰当操作）</h2></left>
+            <li id="yunpan"><a href="http://199.201.75.2/apps/files/" title="云盘" target='_blank'> 火炬云盘地址</a>（可分享文件，下载资料）</li>
+            <li id="wiki"><a href="http://199.200.0.123/wiki/长沙资源地址" title="地址" target='_blank'> 长沙资源地址</a>（wifi密码，各大常用链接）</li>
+            <li id="shadu"><a href="http://200.200.0.35/sd" title="杀毒" target='_blank'> 杀毒平台</a>（BBS账号,账号密码询问导师）</li>
+            <li id="shangwang"><a href=" https://199.201.139.253:4453/login.html" title="上网行为" target='_blank'> 上网行为管理</a>（账号工号，账号密码询问导师，经导师允许方可操作 操作指南，系统管理/防火墙/端口映射/新增规则）</li>
+            <li id="shouquan"><a href="https://199.201.75.76/login.html" title="授权" target='_blank'> 在线授权平台</a>（账号密码 admin/1qaz3edc 点击分配，输入设备IP和端口4430，其他参考别人的配置）</li>
+            <li id="jiaban"><a href="http://200.200.0.136/Loginx.aspx" title="加班" target='_blank'> HRM调休加班地址</a>（账号工号，密码aa123456）</li>
+            <li id="chaungxin"><a href="http://200.200.0.17/cms/supesite/m.php?name=creative&mo_catid=798" title="创新" target='_blank'> 创新园地地址</a>（账号询问导师）</li>
+
+
+
+            <left><h2>测试三大资源地址（随便使用）</h2></left>
+            <li id="31"><a href="http://199.201.139.31/websso/" title="资源31" target='_blank'> 139.31的资源地址</a></li>
+            <li id="25"><a href="http://199.201.139.25/websso/" title="资源25" target='_blank'> 139.25的资源地址</a></li>
+            <li id="20"><a href="http://199.201.139.20/websso/" title="资源20" target='_blank'> 139.20的资源地址</a></li>
+            <li id="lu"> 可以跳转的资源地址，需要100.100的网段（http://100.100.137.155:8000/temp/zhuce）</li>
+
+
+
+            <left><h2>定制组平台地址（随便使用）</h2></left>
+            <li id="tice"><a href="http://199.201.137.9:8001/td_app/" title="提测" target='_blank'> 提测平台地址</a>（admin/sangfor123）</li>
+            <li id="zhoaba2"><a href="http://199.201.137.9:9000/" title="找包2" target='_blank'> 找包平台新地址</a></li>
+            <li id="zhoabao"><a href="http://199.200.0.15:3000/pkginfos" title="找包" target='_blank'> 找包平台旧地址</a></li>
+            <li id="dingzhi"><a href="http://200.200.1.70/viewport.html" title="管理" target='_blank'> 定制管理系统</a>（账号：中文姓名 密码空 如没有，找唐颖璇开通）</li>
+            <li id="jianrong"><a href="http://200.200.194.46/" title="兼容" target='_blank'> 兼容性平台地址</a>（可测各大主流浏览器兼容，如果挂了请另找设备）</li>
+
+            <left><h2>兼容性平台地址ie6-ie11（使用前确认有没有人在使用，谨慎操作,如果没跳转，请先登录HCI再点击 admin/sangfor123）</h2></left>
+            <li id="jianrong1"><a href="https://199.201.139.1/?m=/mod-vm-summary/index&id=119020307924&name=winxp+ie6_136.8-hp#vm-summary-snap" title="ie6" target='_blank'> ie6-ie8</a>（ ie6,ie7,ie8在快照里，恢复打开设备即可 sangfor/sangfor）</li>
+            <li id="jianrong6"><a href="https://199.201.139.17/?m=/mod-console/index&n-hfs&vmid=6162747569026&vmname=win7_x64_lwb_137.91" title="兼容1" target='_blank'> ie8</a>（sangfor/sangfor）</li>
+            <li id="jianrong2"><a href="https://199.201.139.17/?m=/mod-console/index&n-hfs&vmid=3509230651774&vmname=win7_x64_lwb_137" title="兼容" target='_blank'> ie9</a>（test/test）</li>
+            <li id="jianrong4"><a href="https://199.201.139.1/?m=/mod-console/index&n-hfs&vmid=2108498463506&vmname=win7_137.67" title="ie edge" target='_blank'> ie10</a>（test/test 控制台卡的话就远程连接IP199.201.137.67）</li>
+            <li id="jianrong3"><a href="https://199.201.139.1/?m=/mod-console/index&n-hfs&vmid=3319473831544&vmname=%E5%8F%91%E5%B8%83%E9%A1%B9%E6%B5%8B%E8%AF%95_win10_x86_139.13" title="ie edge" target='_blank'> ie11，ie edge，以及分辨率1024*768，win10 32位</a>（要开机sangfor/sangfor）</li>
+            <li id="jianrong5">Google、ie11、分辨率1920*1080、win7 64位一般自己电脑就是</li>
+
+            <left><h2>配置技巧大全（重点！）</h2></left>
+            <li id="zaixian"><a href="http://199.201.75.1/t/topic/6021" title="zaixian" target='_blank'> 在线升级方法</a>（查看在线升级服务器验证方法那5条即可，外网的IP询问定制相关人员，有现成的）</li>
+            <li id="ldap"><a href="ldappic/ldap.html" title="zaixian" target='_blank'> ldap认证配置方法</a>（ldap服务器139.31,或者139.20）</li>
+            <li id="redis"><a href="redispic/redis.html" title="zaixian" target='_blank'> redis认证配置方法</a>（redis服务器139.31,或者139.20）</li>
+            <li id="yonghupeizhi"><a href="jiemi/jiemi.html" title="jiemi" target='_blank'> 用户配置管理员密码解密</a></li>
+            <li id="duijie1"><a href="fengzhuang/feng1.html" title="fengzhaung1" target='_blank'> IOS端标准版awork配置</a></li>
+            <li id="duijie12"><a href="fengzhuang/feng12.html" title="fengzhaung12" target='_blank'> IOS端定制版awork配置</a></li>
+            <li id="duijie2"><a href="fengzhuang/feng2.html" title="fengzhaung2" target='_blank'> Android端标准版awork配置</a></li>
+            <li id="duijie21"><a href="fengzhuang/feng21.html" title="fengzhaung21" target='_blank'> Android端定制版awork配置</a></li>
+            <li id="yingyong"><a href="fengzhuang/fengzhaung.html" title="fengzhaung212" target='_blank'> 应用封装测试步骤</a></li>
+
+
+
+
+
+
+
+
+
+            <left><h2>其他资源地址</h2></left>
+            <li id="shitiji"><a href="https://199.201.138.100:4430" title="实体机" target='_blank'> 实体机地址</a>（766版本的实体机）</li>
+            <li id="dandian"><a href="http://199.201.75.1/t/topic/5045" title="实体机" target='_blank'> 单点登录配置详情</a></li>
+            <li id="kaifashebi"><a href="http://199.201.75.2/apps/onlyoffice/269021" title="开发设备" target='_blank'> 开发设备使用情况</a></li>
+            <li id="duijie"><a href="http://199.201.75.1/t/topic/928" title="对接封装" target='_blank'> VPN对接内网封装平台</a></li>
+            <li id="iphuafen"><a href="http://199.201.75.1/t/topic/5285" title="ip划分" target='_blank'> 个人使用ip划分</a>(按照划分ip，设置自己的ip)</li>
+
+        </ul>
+    </div>
+<!--<div class="girl">-->
+<!--<img width=100% height=100% src="sxf1.bmp" title="害羞的小女生"/>-->
+<!--</div>-->
+<!--    <div id="button" style="height:40px; background:pink"><h1><center>深信服资源地址大全</center></h1></div>-->
+
+
+</body>
+</html>

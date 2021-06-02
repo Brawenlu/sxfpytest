@@ -1,0 +1,336 @@
+访问rclist界面,下面是rclist下发内容
+<?xml version="1.0" encoding="utf-8"?>
+<Resource>
+	<Rcs> 
+	<Rc id="5" name="web-tyx" type="0" proto="0" svc="HTTP" host="http://100.100.139.20" port="0" enable_disguise="0" note="" attr="0" app_path="" rc_grp_id="0" rc_logo="rc.jpg" authorization="1" auth_sp_id="0" selectid="-1" /><Rc id="6" name="tcp-tyx" type="1" proto="0" svc="HTTP" host="100.100.139.25" port="80~80" enable_disguise="0" note="" attr="0" app_path="" rc_grp_id="0" rc_logo="rc.jpg" authorization="1" auth_sp_id="0" selectid="-1" /><Rc id="7" name="l3-tyx" type="2" proto="0" svc="HTTP" host="100.100.139.31" port="80~80" enable_disguise="0" note="" attr="0" app_path="" rc_grp_id="0" rc_logo="rc.jpg" authorization="1" auth_sp_id="0" selectid="-1" /><Rc id="8" name="72的web资源" type="0" proto="0" svc="HTTP" host="http://10.10.1.72/websso/testwebsso.php" port="0" enable_disguise="0" note="72的web资源" attr="0" app_path="" rc_grp_id="0" rc_logo="rc.jpg" authorization="1" auth_sp_id="0" selectid="-1" /><Rc id="9" name="72的tcp资源" type="1" proto="0" svc="HTTP" host="http://10.10.1.72/websso/websso.htm" port="80~80" enable_disguise="0" note="72的tcp资源" attr="0" app_path="" rc_grp_id="0" rc_logo="rc.jpg" authorization="1" auth_sp_id="0" selectid="-1" /><Rc id="10" name="72的l3资源" type="2" proto="0" svc="HTTP" host="http://10.10.1.72/websso/Resource.html" port="80~80" enable_disguise="0" note="72的l3资源" attr="0" app_path="" rc_grp_id="0" rc_logo="rc.jpg" authorization="1" auth_sp_id="0" selectid="-1" /><Rc id="11" name="72的web资源test1+" type="0" proto="0" svc="HTTP" host="http://10.10.1.72/websso/testwebsso.php" port="0" enable_disguise="0" note="1" attr="0" app_path="" rc_grp_id="0" rc_logo="rc.jpg" authorization="1" auth_sp_id="0" selectid="-1" /><Rc id="12" name="10.10单点登录的资源test1+" type="0" proto="0" svc="HTTP" host="http://10.10.1.191:8000/temp/zhuce" port="0" enable_disguise="0" note="1" attr="0" app_path="" rc_grp_id="0" rc_logo="rc.jpg" authorization="1" auth_sp_id="0" selectid="-1" /><Rc id="13" name="72的TCP资源test1+" type="1" proto="0" svc="HTTP" host="http://10.10.1.72/websso/websso.htm" port="80~80" enable_disguise="0" note="1" attr="0" app_path="" rc_grp_id="0" rc_logo="rc.jpg" authorization="1" auth_sp_id="0" selectid="-1" /><Rc id="14" name="72的L3资源test1+" type="2" proto="0" svc="HTTP" host="http://10.10.1.72/websso/Resource.html" port="80~80" enable_disguise="0" note="1" attr="0" app_path="" rc_grp_id="0" rc_logo="rc.jpg" authorization="1" auth_sp_id="0" selectid="-1" />
+    
+	
+	</Rcs>
+	<RcGroups>
+	 <Group id="0"  name="默认资源组"  type="0"  logowidth="48"  logoheight="48"  load_balance="0"  show_note="0" /> 
+	<Group id="-2" name="unauthorization" type="0" logowidth="64" logoheight="64" load_balance="0" show_note="0" /> 
+	</RcGroups>
+	<SD>
+	<Global enable="0" SDRedirectFile="0"/> <Policy id="0"/> <DesktopFormat safedesk="0" com="0" infrared="0" bluetooth="0" printer="0" changedesk="0" register_un_mon="0" safedesk_local_transport="0" rapp_in_safedesk="0"/> <Internet tempbuf="0" history="0" tables="0" cookies="0"/><iplist iplist=""/> <rclist rclist=""/> 
+	</SD>
+	<Dns dnsserver="" data="9:10.10.1.72:10.10.1.72;10:10.10.1.72:10.10.1.72;13:10.10.1.72:10.10.1.72;14:10.10.1.72:10.10.1.72" filter=""/>
+	<FileLock data="" filecount="0" maxfilecount="0"/>
+	<UB index_inner="" ubdllinfo=""/>
+	<Easylink>
+	
+	</Easylink>
+	<Other defaultRcId="0"  allocateVip="1"    balanceinfo=""/>
+    <UrlWarrentRules  enable="1" filter="js;css;jpg;jpeg;jpe;gif;flv;swf;swfl;cab;png;bmp" tips="对不起，您没有权限访问该页面！" >
+    
+    </UrlWarrentRules>
+    <MSG_INFO>
+     未能连接SANGFOR SSL VPN网关,请确保计算机已经正确接入网络或联系管理员.|未能正确打开SANGFOR SSL Virtual网卡,暂时不能提供SSL CS服务,请联系管理员.|非常抱歉,CS应用支持出现异常,即将退出,请联系管理员.|与本机IP、代理IP或者SSL网关IP冲突.您将无法访问这些L3VPN资源.|内网IP地址:|没有IP可以分配,请尝试注销后重新启动L3VPN服务或者联系管理员.|系统忙,请尝试注销后重新启动L3VPN服务或者联系管理员.|系统接入用户数已满,请尝试注销后重新启动L3VPN服务或者联系管理员.|您所请求的IP已被他人使用,请尝试注销后重新启动L3VPN服务或者联系管理员.|您所请求的IP为非法IP,请联系管理员.|您所在组id,在L3VPN服务中不合法,请联系管理员.|L3VPN服务以路由模式运行且您没有绑定IP,在集群环境下不能使用L3VPN服务,请联系管理员解决该问题.|L3VPN连接被服务端主动关闭,请尝试重新登录或者联系管理员解决此问题.
+	</MSG_INFO>
+    <Sso enable="1" show_ssoconf="0" show_perssoconf="0" pwd="HlkcMQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" groupname="/" phone_num="" ssotimeout="0" data="" />
+	<WebSsoInfos>
+	
+	</WebSsoInfos>
+	<VSP>
+	<Misc SDTitle="SSL安全桌面" ShowRcInSD="0" ShowUserShortCutIconInSD="0" /> 
+<WallPaper Type="0" Url="" Compress="1" MD5="" />
+<Inject Type="3" />
+<NavBar IconUrl="/por/logo/ShortcutLogo.ico" MD5="" />
+<OfflineVisit Enable="0" VisitTime="0" IsBind="0"/>
+<RedirectData ProcessType="0" UseCustomDefine="0" />
+<Crypto Type="AES" Length="128" Ctx="" />
+<ReDirect NameRule="0|2" Ctx="0"/>
+<FileExport Enable="0" AuditLog="1" MaxAuditFileSize="0" Compress="3" />
+<ActiveXProxyInstall Enable="1">
+</ActiveXProxyInstall>
+<LocalCommunication Enable="1" >
+</LocalCommunication>
+<ExecutableProcess Enable="0" >
+</ExecutableProcess>
+		
+	</VSP>	
+	<StaticSd>
+		<SpecileFile>
+		</SpecileFile>
+		<SpecileKey>
+			<KeyList>SOFTWARE\Microsoft\MSLicensing\Store</KeyList>
+			<KeyList>SOFTWARE\Microsoft\CTF\SystemShared</KeyList>
+			<KeyList>SOFTWARE\Microsoft\Cryptography\RNG\Seed</KeyList>
+			<KeyList>SOFTWARE\Microsoft\Code Store Database</KeyList>
+		</SpecileKey>
+		<SpecileProc>
+			<ProcList></ProcList>
+		</SpecileProc>
+		<DefaultExecutableProcess>
+			<WhiteListItem>
+				<FileName>SfRemoteAppClient.exe</FileName>
+				<Value>Sangfor Technologies Co.,Ltd</Value>
+				<VerifyType>1</VerifyType>
+			</WhiteListItem>
+			<WhiteListItem>
+				<FileName>SfRemoteAppClientHost.exe</FileName>
+				<Value>Sangfor Technologies Co.,Ltd</Value>
+				<VerifyType>1</VerifyType>
+			</WhiteListItem>
+			<WhiteListItem>
+				<FileName>SfRemoteAppSession.exe</FileName>
+				<Value>Sangfor Technologies Co.,Ltd</Value>
+				<VerifyType>1</VerifyType>
+			</WhiteListItem>
+			<WhiteListItem>
+				<FileName>htpd.exe</FileName>
+				<Value>Sangfor Technologies Co.,Ltd</Value>
+				<VerifyType>1</VerifyType>
+			</WhiteListItem>
+			<WhiteListItem>
+				<FileName>SangforCSClient.exe</FileName>
+				<Value>Sangfor Technologies Co.,Ltd</Value>
+				<VerifyType>1</VerifyType>
+			</WhiteListItem>
+			<WhiteListItem>
+				<FileName>FileDialog.exe</FileName>
+				<Value>Sangfor Technologies Co.,Ltd</Value>
+				<VerifyType>1</VerifyType>
+			</WhiteListItem>
+			<WhiteListItem>
+				<FileName>SangforServiceClient.exe</FileName>
+				<Value>Sangfor Technologies Co.,Ltd</Value>
+				<VerifyType>1</VerifyType>
+			</WhiteListItem>
+			<WhiteListItem>
+				<FileName>SangforSDUI.exe</FileName>
+				<Value>Sangfor Technologies Co.,Ltd</Value>
+				<VerifyType>1</VerifyType>
+			</WhiteListItem>
+			<WhiteListItem>
+				<FileName>SangforProxyService.exe</FileName>
+				<Value>Sangfor Technologies Co.,Ltd</Value>
+				<VerifyType>1</VerifyType>
+			</WhiteListItem>
+			<WhiteListItem>
+				<FileName>SvpnJobber.exe</FileName>
+				<Value>Sangfor Technologies Co.,Ltd</Value>
+				<VerifyType>1</VerifyType>
+			</WhiteListItem>
+			<WhiteListItem>
+				<FileName>ctfmon.exe</FileName>
+				<Value>ctfmon.exe</Value>
+				<VerifyType>12</VerifyType>
+			</WhiteListItem>
+			<WhiteListItem>
+				<FileName>ctfmon.exe</FileName>
+				<Value>ctfmon.exe.mui</Value>
+				<VerifyType>12</VerifyType>
+			</WhiteListItem>
+			<WhiteListItem>
+				<FileName>IEXPLORE.EXE</FileName>
+				<Value>IEXPLORE.EXE</Value>
+				<VerifyType>12</VerifyType>
+			</WhiteListItem>
+			<WhiteListItem>
+				<FileName>iexplore.exe</FileName>
+				<Value>Microsoft Corporation</Value>
+				<VerifyType>1</VerifyType>
+			</WhiteListItem>
+			<WhiteListItem>
+				<FileName>iexplore.exe</FileName>
+				<Value>iexplore.exe.mui</Value>
+				<VerifyType>12</VerifyType>
+			</WhiteListItem>
+			<WhiteListItem>
+				<FileName>verclsid.exe</FileName>
+				<Value>verclsid.exe</Value>
+				<VerifyType>12</VerifyType>
+			</WhiteListItem>
+			<WhiteListItem>
+				<FileName>rundll32.exe</FileName>
+				<Value>RUNDLL32.EXE.MUI</Value>
+				<VerifyType>12</VerifyType>
+			</WhiteListItem>
+			<WhiteListItem>
+				<FileName>rundll32.exe</FileName>
+				<Value>RUNDLL.EXE</Value>
+				<VerifyType>12</VerifyType>
+			</WhiteListItem>
+			<WhiteListItem>
+				<FileName>consent.exe</FileName>
+				<Value>consent.exe.mui</Value>
+				<VerifyType>12</VerifyType>
+			</WhiteListItem>
+			<WhiteListItem>
+				<FileName>explorer.exe</FileName>
+				<Value>EXPLORER.EXE.MUI</Value>
+				<VerifyType>12</VerifyType>
+			</WhiteListItem>
+			<WhiteListItem>
+				<FileName>dllhost.exe</FileName>
+				<Value>dllhost.exe</Value>
+				<VerifyType>12</VerifyType>
+			</WhiteListItem>			
+		</DefaultExecutableProcess>
+		<NotifySize>300</NotifySize>
+		<EnTopTool>1</EnTopTool>
+		<ActiveXProxyProcess>
+			<Process Name="iexplore.exe" />
+		</ActiveXProxyProcess>	
+		<RedirectObjectRule Count="26">
+			<Rule ObjectType="5" Disable="0" MatchRule="0" ObjectName="NamedPipe\epmapper" ProcessName="*"/>
+		
+			<Rule ObjectType="4" Disable="0" MatchRule="0" ObjectName="SECLOGON" ProcessName="*"/>
+			<Rule ObjectType="4" Disable="0" MatchRule="0" ObjectName="actkernel" ProcessName="*"/>
+			<Rule ObjectType="4" Disable="0" MatchRule="0" ObjectName="epmapper" ProcessName="*"/>
+			<Rule ObjectType="4" Disable="0" MatchRule="0" ObjectName="ntsvcs" ProcessName="svchost.exe"/>
+			
+			<Rule ObjectType="3" Disable="0" MatchRule="0" ObjectName="RotHintTable" ProcessName="*"/>
+			<Rule ObjectType="3" Disable="0" MatchRule="0" ObjectName="{A64C7F33-DA35-459b-96CA-63B51FB0CDB9}" ProcessName="*"/>
+			<Rule ObjectType="3" Disable="0" MatchRule="0" ObjectName="__ComCatalogCache__" ProcessName="*"/>
+			<Rule ObjectType="3" Disable="0" MatchRule="0" ObjectName="UrlZonesSM_" ProcessName="*"/>
+			
+			<Rule ObjectType="2" Disable="0" MatchRule="0" ObjectName="{A3BD3259-3E4F-428a-84C8-F0463A9D3EB5}" ProcessName="*"/>
+			<Rule ObjectType="2" Disable="0" MatchRule="0" ObjectName="ZonesCounterMutex" ProcessName="*"/>
+			<Rule ObjectType="2" Disable="0" MatchRule="0" ObjectName="ZoneAttributeCacheCounterMutex" ProcessName="*"/>
+			<Rule ObjectType="2" Disable="0" MatchRule="0" ObjectName="ZonesCacheCounterMutex" ProcessName="*"/>
+			<Rule ObjectType="2" Disable="0" MatchRule="0" ObjectName="ZonesLockedCacheCounterMutex" ProcessName="*"/>
+			
+			<Rule ObjectType="1" Disable="0" MatchRule="0" ObjectName="ScmCreatedEvent" ProcessName="*"/>
+			<Rule ObjectType="1" Disable="0" MatchRule="0" ObjectName="ReconEvent" ProcessName="*"/>
+			
+			<Rule ObjectType="3" Disable="1" MatchRule="0" ObjectName="DBWIN_BUFFER" ProcessName="*"/>
+			<Rule ObjectType="1" Disable="1" MatchRule="0" ObjectName="DBWIN_BUFFER_READY" ProcessName="*"/>
+			<Rule ObjectType="1" Disable="1" MatchRule="0" ObjectName="DBWIN_DATA_READY" ProcessName="*"/>
+			<Rule ObjectType="2" Disable="1" MatchRule="0" ObjectName="DBWinMutex" ProcessName="*"/>
+			
+			<Rule ObjectType="3" Disable="0" MatchRule="0" ObjectName="qipc_sharedmemory_" ProcessName="*"/>
+			<Rule ObjectType="3" Disable="0" MatchRule="0" ObjectName="_Content.IE5_index.dat_" ProcessName="*"/>
+			<Rule ObjectType="3" Disable="0" MatchRule="0" ObjectName="_Cookies_index.dat_" ProcessName="*"/>
+			<Rule ObjectType="3" Disable="0" MatchRule="0" ObjectName="_Cookies_Low_index.dat_" ProcessName="*"/>
+			<Rule ObjectType="3" Disable="0" MatchRule="0" ObjectName="_History.IE5_index.dat_" ProcessName="*"/>
+			<Rule ObjectType="3" Disable="0" MatchRule="0" ObjectName="_PrivacIE_Low_index.dat_" ProcessName="*"/>
+			
+		</RedirectObjectRule>
+		
+		<DeniService Count="10">
+			<Service name="ShellHWDetection"/>
+			<Service name="netprofm"/>
+			<Service name="Netman"/>
+			<Service name="WSearch"/>
+			<Service name="STISVC"/>
+			<Service name="UPNPHOST"/>
+			<Service name="ProtectedStorage"/>
+			<Service name="Sens"/>
+			<Service name="EventSystem"/>
+			<Service name="rasman"/>
+		</DeniService>
+		
+		<InterceptSet Count="7">
+			<Item Type="1" Name="senssvc"/>
+			<Item Type="1" Name="SECLOGON"/>
+			<Item Type="1" Name="vpnike"/>
+			
+			<Item Type="2" Name="Elevation:Administrator!new:"/>
+			<Item Type="2" Name="Elevation:Administrator!clsid:"/>
+			<Item Type="2" Name="Elevation:highest!new:"/>
+			
+			<Item Type="4" Name="{000c101c-0000-0000-c000-000000000046}"/>
+		</InterceptSet>
+		
+		<InjectAgentWhiteList Count = "2">
+		    <ProcName name = "igfxsrvc.exe"/>
+			<ProcName name = "dwm.exe"/>
+		</InjectAgentWhiteList>
+		
+		<VBRule Enable="1">
+			<ProcName>vmusrvc.exe</ProcName>
+			<ProcName>VMwareUser.exe</ProcName>
+			<ProcName>VBoxTray.exe</ProcName>
+			<ProcName>winvnc4.exe</ProcName>
+			<ProcName>TeamViewer.exe</ProcName>
+			<ProcName>awhost32.exe</ProcName>
+		</VBRule>
+		
+		<NetDrvInfo WorkMode="2">
+			<WhiteListItem FileName="Outlook" VerifyType="3" Value="Outlook" />
+			<WhiteListItem FileName="iexplore" VerifyType="3" Value="iexplore"/>			
+			<WhiteListItem FileName="iexplore.exe" VerifyType="3" Value="iexplore.exe"/>			
+			<WhiteListItem FileName="IEXPLORE" VerifyType="3" Value="IEXPLORE"/>
+			<WhiteListItem FileName="IEXPLORE.EXE" VerifyType="3" Value="IEXPLORE.EXE"/>
+		</NetDrvInfo>
+		
+		<DenyProcess>
+			<Item FileName="Xuetr.exe" Info="OriginalFilename" />
+			<Item FileName="WINHEX.EXE" Info="OriginalFilename" />
+			<Item FileName="IceSword.exe" Info="OriginalFilename" />
+		</DenyProcess>
+		
+		<WhitePipeOfProcess EnablePipeRule="0">
+		<Item FileName="SangforCSClient.exe" Info="OriginalFilename" PipeName="SangforDD2SDPipe"/>
+		<Item FileName="WMPLAYER.EXE" Info="OriginalFilename" PipeName="*"/>
+		<Item FileName="CNAB4SWK.EXE" Info="OriginalFilename" PipeName="*"/>
+		<Item FileName="*" Info="" PipeName="spoolss"/>
+		<Item FileName="*" Info="" PipeName="atsvc"/>
+		<Item FileName="*" Info="" PipeName="AudioSrv"/>
+		<Item FileName="*" Info="" PipeName="browser"/>
+		<Item FileName="*" Info="" PipeName="cert"/>
+		<Item FileName="*" Info="" PipeName="Ctx_Winstation_API_Service"/>
+		<Item FileName="*" Info="" PipeName="DAV RPC SERVICE"/>
+		<Item FileName="*" Info="" PipeName="dnsserver"/>
+		<Item FileName="*" Info="" PipeName="epmapper"/>
+		<Item FileName="*" Info="" PipeName="eventlog"/>
+		<Item FileName="*" Info="" PipeName="HydraLsPipe"/>
+		<Item FileName="*" Info="" PipeName="InitShutdown"/>
+		<Item FileName="*" Info="" PipeName="keysvc"/>
+		<Item FileName="*" Info="" PipeName="locator"/>
+		<Item FileName="*" Info="" PipeName="llsrpc"/>
+		<Item FileName="*" Info="" PipeName="lsarpc"/>
+		<Item FileName="*" Info="" PipeName="msgsvc"/>
+		<Item FileName="*" Info="" PipeName="nddeapi"/>
+		<Item FileName="*" Info="" PipeName="netdfs"/>
+		<Item FileName="*" Info="" PipeName="netlogon"/>
+		<Item FileName="*" Info="" PipeName="ntsvcs"/>
+		<Item FileName="*" Info="" PipeName="plugplay"/>
+		<Item FileName="*" Info="" PipeName="policyagent"/>
+		<Item FileName="*" Info="" PipeName="ipsec"/>
+		<Item FileName="*" Info="" PipeName="ProfMapApi"/>
+		<Item FileName="*" Info="" PipeName="protected_storage"/>
+		<Item FileName="*" Info="" PipeName="ROUTER"/>
+		<Item FileName="*" Info="" PipeName="scerpc"/>
+		<Item FileName="*" Info="" PipeName="SECLOGON"/>
+		<Item FileName="*" Info="" PipeName="SfcApi"/>
+		<Item FileName="*" Info="" PipeName="srvsvc"/>
+		<Item FileName="*" Info="" PipeName="ssdpsrv"/>
+		<Item FileName="*" Info="" PipeName="svcctl"/>
+		<Item FileName="*" Info="" PipeName="tapsrv"/>
+		<Item FileName="*" Info="" PipeName="trkwks"/>
+		<Item FileName="*" Info="" PipeName="W32TIME"/>
+		<Item FileName="*" Info="" PipeName="W32TIME_ALT"/>
+		<Item FileName="*" Info="" PipeName="winlogonrpc"/>
+		<Item FileName="*" Info="" PipeName="winreg"/>
+		<Item FileName="*" Info="" PipeName="winspipe"/>
+		<Item FileName="*" Info="" PipeName="wkssvc"/>
+		</WhitePipeOfProcess>
+		
+		<Drivers Enable="1">
+			<Driver Name="NetDriver" Enable="1" />
+			<Driver Name="SSDT" Enable="1" />
+			<Driver Name="FileshareMinifilter" Enable="1" />
+		</Drivers>
+		
+		<UsbWhiteProcess>
+			<Rule ProcessName="explorer.exe" Info="explorer.exe" Type="12"/>
+			<Rule ProcessName="iexplore.exe" Info="iexplore.exe" Type="12"/>
+		</UsbWhiteProcess>
+	</StaticSd>
+    <service>
+        <UserName>
+		<![CDATA[test1]]>
+		</UserName>
+        <LoginIp>172.22.76.24</LoginIp>
+        <LoginTime>Tue May 11 16:56:31 2021
+</LoginTime>
+        <IsUser>0</IsUser>
+        <IsExtern>0</IsExtern>
+        <IsHidUser>0</IsHidUser>
+        <CertThum></CertThum>
+        <CertSn></CertSn>
+        <CertDn></CertDn>
+    </service>
+</Resource><!--randmac=7dbd2c9f970964d098d2da3abd93193392b3ec93--><!--hashmac=221bdf33473008fed56f3c3df4a6cd2bcc88ba16-->

@@ -1,0 +1,7 @@
+开始注销，下面是注销后访问rclist的界面返回
+<?xml version="1.0" encoding="utf-8"?>
+<Auth>
+	<Message><![CDATA[unexpected user service]]></Message>
+	<ErrorCode>20026</ErrorCode>
+</Auth>
+<!--randmac=3cf8bdbd3ff10bd3479f39a1dcfef571f88d997e--><!--hashmac=12cddebab8e89e4d10ca51c12d8deeea729b1744-->

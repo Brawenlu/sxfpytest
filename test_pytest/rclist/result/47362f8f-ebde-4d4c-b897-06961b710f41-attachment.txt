@@ -1,0 +1,7 @@
+开始注销
+<?xml version="1.0" encoding="utf-8"?>
+<Auth>
+	<Message><![CDATA[unexpected user service]]></Message>
+	<ErrorCode>20026</ErrorCode>
+</Auth>
+<!--randmac=f6ab9f8b87145143e70ced2133e1cace9dec7181--><!--hashmac=13b57cbbffed1db46ce9345716010c77db34ec48-->

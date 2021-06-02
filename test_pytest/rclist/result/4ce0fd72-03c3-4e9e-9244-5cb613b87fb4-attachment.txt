@@ -1,0 +1,2 @@
+开始访问web资源，下面是web资源请求返回内容
+Get method: <br>name : <br>pwd : <br>sj : <br>zm: <br>sn : <br>zt: <br>zw: <br>zdy: <br>id : <br><br>----------------------------------------<br>Post method: <br>name : <br>pwd : <br>sj : <br>zm: <br>sn : <br>zt: <br>zw: <br>zdy : <br>id : <br>
