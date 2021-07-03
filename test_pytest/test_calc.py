@@ -62,7 +62,7 @@ class TestCalc:
     # def test_error(self):
     #     assert False
 
-#123
+#1233123
 # 指定测试类的方法pytest -vs test_calc.py::TestC2::test_a（文件名::类::方法）-vs详细输出，包括打印  -x遇到报错就停止运行 (pytest test_calc.py -vs  --maxfail=0 失败后继续运行,)
 # (pytest test_calc.py -vs  --lf上次失败的测试用例)
 
